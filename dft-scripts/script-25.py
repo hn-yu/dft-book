@@ -1,5 +1,6 @@
 from ase import Atoms, Atom
-from vasp import Vasp
+#from vasp import Vasp
+from ase.calculators.vasp import Vasp
 import numpy as np
 np.set_printoptions(precision=3, suppress=True)
 atoms = Atoms([Atom('C', [0, 0, 0]),
